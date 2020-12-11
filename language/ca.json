@@ -1,94 +1,94 @@
 {
   "semantics": [
     {
-      "label": "Background image",
-      "description": "Image shown on background."
+      "label": "Imatge de fons",
+      "description": "Imatge mostrada en segon pla."
     },
     {
-      "label": "Alternative text for background image",
-      "description": "If the browser can't load the image this text will be displayed instead. Also used by assistive technologies."
+      "label": "Text alternatiu per a la imatge de fons",
+      "description": "Si el navegador no pot carregar la imatge, es mostrarà aquest text en el seu lloc. També serveix per a les tecnologies d’assistència."
     },
     {
-      "label": "Hotspot Icon",
+      "label": "Icona de la zona sensible",
       "options": [
         {
-          "label": "Predefined icon"
+          "label": "Icona predefinida"
         },
         {
-          "label": "Uploaded image"
+          "label": "Imatge carregada"
         }
       ]
     },
     {
-      "label": "Predefined icon",
-      "description": "Using a predefined icon for the hotspot.",
+      "label": "Icona predefinida",
+      "description": "Ús d’una icona predefinida per a la zona sensible.",
       "options": [
         {
-          "label": "Plus"
+          "label": "Més"
         },
         {
-          "label": "Minus"
+          "label": "Menys"
         },
         {
-          "label": "Times"
+          "label": "Vegades"
         },
         {
-          "label": "Check"
+          "label": "Verifica"
         },
         {
-          "label": "Question"
+          "label": "Pregunta"
         },
         {
-          "label": "Info"
+          "label": "Informació"
         },
         {
-          "label": "Exclamation"
+          "label": "Exclamació"
         }
       ]
     },
     {
-      "label": "Uploaded image",
-      "description": "Use your own image for the hotspot icon.<br>75px by 75px is recommended for your image."
+      "label": "Imatge carregada",
+      "description": "Utilitzeu una imatge pròpia per a la icona de la zona sensible.<br>Es recomana fer servir una imatge de 75 x 75 píxels."
     },
     {
-      "label": "Hotspot color",
-      "description": "The color of the hotspots"
+      "label": "Color de la zona sensible",
+      "description": "Color de les zones sensibles"
     },
     {
-      "entity": "hotspot",
-      "label": "Hotspots",
+      "entity": "zona sensible",
+      "label": "Zones sensibles",
       "field": {
-        "label": "Hotspot",
+        "label": "Zona sensible",
         "fields": [
           {
-            "label": "Hotspot position",
-            "description": "Click on the thumbnail image to place the hotspot"
+            "label": "Posició de la zona sensible",
+            "description": "Feu clic a la imatge en miniatura per situar-hi la zona sensible."
           },
           {
-            "label": "Cover entire background image",
-            "description": "When the user clicks the hotspot the popup will cover the entire background image"
+            "label": "Imatge que ocupa tot el fons",
+            "description": "Quan l’usuari fa clic a la zona sensible, l’element emergent cobreix tota la imatge de fons"
           },
           {
-            "label": "Header",
-            "description": "Optional header for the popup"
+            "label": "Títol",
+            "description": "Encapçalament opcional per a l’element emergent"
           },
           {
-            "label": "Popup content",
+            "label": "Contingut emergent",
             "field": {
-              "label": "Content Item"
+              "label": "Element de contingut"
             }
           }
         ]
       }
     },
     {
-      "label": "Hotspot label for assistive technologies",
-      "default": "Hotspot #num",
-      "description": "Will help announce what hotspot element has been navigated to if there is no header specified for a hotspot. #num can be used to replace the hotspot number."
+      "label": "Etiqueta de la zona sensible per a tecnologies d’assistència",
+      "default": "Zona sensible #num",
+      "description": "Ajudarà a indicar quin element de la zona sensible s’ha seleccionat si la zona sensible no té cap títol. El número de zona sensible es pot substituir per #num."
     },
     {
-      "label": "Close button label for assistive technologies",
-      "default": "Close"
+      "label": "Etiqueta del botó \"Tanca\" per a tecnologies d’assistència",
+      "default": "Tanca"
     }
   ]
 }
